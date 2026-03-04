@@ -2,8 +2,8 @@ import joblib
 import pandas as pd
 from src.preprocess import preprocess_data
 
-model = joblib.load("../models/loan_model.pkl")
-model_columns = joblib.load("../models/model_columns.pkl")
+model = joblib.load("models/loan_model.pkl")
+model_columns = joblib.load("models/model_columns.pkl")
 
 def predict(data):
 
