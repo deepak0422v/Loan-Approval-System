@@ -30,9 +30,6 @@ credit_history = st.selectbox("Credit History", [1, 0])
 
 property_area = st.selectbox("Property Area", ["Urban", "Rural", "Semiurban"])
 
-Credit_History = st.selectbox("Credit History", [1,0])
-Property_Area = st.selectbox("Property Area", ["Urban","Semiurban","Rural"])
-
 
 if st.button("Predict Loan Status"):
 
