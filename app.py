@@ -15,11 +15,15 @@ Self_Employed = st.selectbox("Self Employed", ["Yes","No"])
 
 ApplicantIncome = st.number_input("Applicant Income")
 CoapplicantIncome = st.number_input("Coapplicant Income")
-LoanAmount = st.number_input("Loan Amount")
-loan_amount = st.number_input("Loan Amount")
+loan_amount = st.number_input(
+    "Loan Amount",
+    key="loan_amount"
+)
+
 loan_term = st.selectbox(
-    "Loan Amount Term (months)",
-    [360, 180, 120, 84, 60, 36]
+    "Loan Repayment Term (Months)",
+    [360, 180, 120, 84, 60, 36],
+    key="loan_term"
 )
 
 credit_history = st.selectbox("Credit History", [1, 0])
