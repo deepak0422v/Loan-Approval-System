@@ -7,6 +7,9 @@ Machine Learning | Python | Streamlit | Scikit-Learn
 Try the application here:
 https://loan-approval-predictor-ml.streamlit.app
 
+## Application Preview
+![Loan Approval System Page](https://github.com/user-attachments/assets/5dcd7d5d-fd4f-41a7-b740-545f3424a47c)
+
 ## Demo
 ![Loan Approval System Demo](https://github.com/user-attachments/assets/7d66c119-e1e7-459d-ad95-0cdac0a3740c)
 
