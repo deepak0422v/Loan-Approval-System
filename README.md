@@ -2,6 +2,11 @@ Machine Learning | Python | Streamlit | Scikit-Learn
 
 # Loan Approval Prediction System
 
+## Live Demo
+
+Try the application here:
+https://loan-approval-predictor-ml.streamlit.app
+
 An end-to-end Machine Learning application that predicts whether a loan application will be approved based on applicant financial and demographic details.
 
 ---
@@ -99,10 +104,9 @@ Feature importance analysis was also performed to identify the most influential 
 
 ---
 
-# Project Structure
+## Project Structure
 
-```
-Loan Approval ML
+Loan-Approval-System-
 │
 ├── data
 │   └── train.csv
@@ -115,27 +119,29 @@ Loan Approval ML
 │   └── eda.ipynb
 │
 ├── src
-│   ├── train.py
 │   ├── preprocess.py
+│   ├── train.py
 │   └── predict.py
 │
 ├── app.py
 ├── requirements.txt
-└── README.md
-```
+├── README.md
+└── .gitignore
 
 ---
 
-# Features
+## Features
 
-- Automated preprocessing pipeline
+- Data preprocessing pipeline
 - Feature engineering
-- Model comparison
-- Hyperparameter tuning
-- Feature importance visualization
+- Model training and evaluation
+- Logistic Regression and Random Forest comparison
+- Hyperparameter tuning using GridSearchCV
+- Feature importance analysis
 - Model persistence using Joblib
-- Interactive Streamlit UI
-- Real-time loan approval prediction
+- Modular prediction pipeline
+- Interactive Streamlit web application
+- Cloud deployment using Streamlit Cloud
 
 ---
 
@@ -176,13 +182,12 @@ The system predicts whether the loan will be **Approved or Rejected**.
 
 ---
 
-# Future Improvements
+## Future Improvements
 
-- Deploy the model as a REST API using FastAPI
-- Cloud deployment (Streamlit Cloud / AWS)
-- Add model monitoring for data drift
-- Improve UI with advanced visualizations
-
+- Add API deployment using FastAPI
+- Implement model monitoring and drift detection
+- Add automated retraining pipeline
+- Deploy using Docker and cloud platforms (AWS/GCP)
 ---
 
 # Author
