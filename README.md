@@ -7,6 +7,10 @@ Machine Learning | Python | Streamlit | Scikit-Learn
 Try the application here:
 https://loan-approval-predictor-ml.streamlit.app
 
+## Demo
+![Loan Approval System Demo](https://github.com/user-attachments/assets/7d66c119-e1e7-459d-ad95-0cdac0a3740c)
+
+
 An end-to-end Machine Learning application that predicts whether a loan application will be approved based on applicant financial and demographic details.
 
 ---
