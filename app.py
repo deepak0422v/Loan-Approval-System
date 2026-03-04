@@ -41,10 +41,10 @@ if st.button("Predict Loan Status"):
         "Self_Employed": Self_Employed,
         "ApplicantIncome": ApplicantIncome,
         "CoapplicantIncome": CoapplicantIncome,
-        "LoanAmount": LoanAmount,
-        "Loan_Amount_Term": Loan_Amount_Term,
-        "Credit_History": Credit_History,
-        "Property_Area": Property_Area
+        "LoanAmount": loan_amount,
+        "Loan_Amount_Term": loan_term,
+        "Credit_History": credit_history,
+        "Property_Area": property_area
     }
 
     prediction = predict(input_data)
